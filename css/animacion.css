@@ -1,0 +1,71 @@
+/*@palabras reservadas*/
+
+/*transcion de colores*/
+@keyframes animacion_test{
+    from{
+        background-color: red;
+    }
+    to{
+        background-color: yellow;
+    }
+}
+
+/*tansformacion para que gire un  circulo*/
+
+@keyframes girar{
+    from{
+        transform: rotate(0deg);
+    }
+
+    to{
+        transform: rotate(360deg);
+
+    }
+}
+
+/*para que gire el circulo*/
+
+@keyframes label-animation{
+    from{
+        transform: rotate(0deg);
+        margin-left: 0;
+
+    }
+
+    to{
+        transform: rotate(180deg);
+        margin-left: 85vw;
+    }
+}
+
+.container-label{
+    border:5px solid rgb(89, 142, 1);
+    width: 100%;
+    padding: 2rem;
+
+}
+
+.label{
+    width: 64px;
+    background-color: rgb(89, 142, 1);
+    color: snow;
+    font-size: 1.3rem;
+    border-radius: 20px;
+    text-align: center;
+    /*aqui se coloca el texto de la animacion*/
+    animation-name: label-animation;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.loader{
+    width: 64px;
+    height: 64px;
+    border: 5px solid rgb(24, 243, 247);
+    border-top: rgb(89, 142, 1);
+    border-radius: 50px;
+    animation: girar 4s linear infinite;
+
+}

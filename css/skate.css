@@ -1,0 +1,30 @@
+*{
+    background-color: crimson;
+}
+
+header{
+    text-align: center;
+
+}
+
+
+
+video{
+    
+    width: 15rem;
+    height: 15rem;
+    margin: auto;
+    display: block;
+
+}
+
+img{
+    width: 10rem;
+    height: 10rem;
+}
+
+#tiposkate{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}

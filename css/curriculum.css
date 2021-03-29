@@ -1,0 +1,47 @@
+html{
+    background-color: snow;
+}
+
+header{
+    text-align: center;
+    border: 6px solid orangered;
+    border-radius: 40px;
+    margin: 2rem;
+    background-color: rgb(49, 248, 255);
+}
+
+img {
+    border: 4px  ;
+    border-radius: 5px
+
+    
+}
+
+ nav{
+    text-align: left;
+    border: 4px solid rgb(49, 248, 255);
+    border-radius: 10px;
+    margin: 2rem;
+    background-color: orangered;
+
+}
+
+aside{
+    text-align: left;
+    border: 4px solid rgb(49, 248, 255);
+    background-color: orangered;
+    border-radius: 10px;
+    margin-left: 100px;
+    width: 30%;
+
+}
+
+
+section{
+    text-align: left;
+    border: 2px solid rgb(49, 248, 255);
+    border-radius: 10px;
+    margin-right: 450px;
+    background-color: orangered;
+
+}
