@@ -15,16 +15,22 @@ video{
     height: 15rem;
     margin: auto;
     display: block;
+    border-radius: 10px;
 
 }
 
 img{
     width: 10rem;
     height: 10rem;
+    
 }
 
 #tiposkate{
     width: 100px;
     height: 100px;
     margin: auto;
+}
+
+table{
+    text-align: center;
 }
