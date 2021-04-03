@@ -5,16 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Problema 2</title>
+    <script src="JS/problema1.js"></script>
 </head>
 <body>
-    <form >
-        <p>Un vendendor recibe un sueldo base de mas un 10% extra por la comisio de sus ventas el vendedor desea saber cuanto ontendra por concepto de comisiones  por las tres ventas que realiza en el mes y el total que recibira en el mes tomando en cuenta su sueldo base y comisiones</p>
-        <table align="center">
+    <form method="POST" name="formulario">
+        <p>Un vendendor recibe un sueldo base de mas un 10% extra por la comision de sus ventas el vendedor desea saber cuanto ontendra por concepto de comisiones  por las tres ventas que realiza en el mes y el total que recibira en el mes tomando en cuenta su sueldo base y comisiones</p>
+        <table align="center" border="2">
             <tr>
-                <td>Ingrese su sueldo base = $</td>
-                <td><input type="text" name="sueldo" onkeypress=""></td>
-            
+                <td class="Sup">Ingrese su sueldo base = $</td>
+                <td class="Inf"><input type="text" name="sueldo" onkeypress="return validar(e)"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="button" name="adjuntar" value="Calcular" onclick="calcular()"></td>
+            </tr>
+            <tr>
+                <td>El resultado del sueldo es:</td>
+                <td><input type="text" name="resultado" readonly="readonly" class="input_text" ></td>
+            </tr>
         </table>
     </form>
+
+    <footer>
+        <a href="formulario.html">Regresar</a>
+    </footer>
 </body>
 </html>
