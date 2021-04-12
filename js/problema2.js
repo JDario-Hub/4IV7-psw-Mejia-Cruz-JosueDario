@@ -14,9 +14,7 @@ function validarn(e){
 function calcular(){
     var valor = document.formulario.sueldo.value;
     var result = parseInt(valor);
-    var intereses = result * 0.10;
-    var suma = intereses * 3;
-    var total = suma + result;
+    var total =  result * 10;
 
-    document.formulario.resultado.value = "$"+total;
+    document.formulario.resultado.value = "$"+ total;
 }
