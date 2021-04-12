@@ -14,7 +14,7 @@ function validarn(e){
 function calcular(){
     var valor = document.formulario.sueldo.value;
     var result = parseInt(valor);
-    var total =  result * 10;
+    var total =  result * 10
 
     document.formulario.resultado.value = "$"+ total;
 }
