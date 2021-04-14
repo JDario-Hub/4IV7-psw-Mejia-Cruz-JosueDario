@@ -29,7 +29,7 @@ function iniciarContador(){
         verificador = true;
 
     }
-    
+   
     else{
         verificador= false;
         clearInterval(intervalo);
@@ -60,6 +60,6 @@ function grabarContador(){
         `;
 
         almacenarTiempos.appendChild(p);
-        
+
     }
 }
