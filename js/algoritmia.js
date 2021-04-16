@@ -1,15 +1,3 @@
-function problema1(){
-    var p1_input = document.querySelector('#p1-input').value;
-    
-    var p1_array = p1_input.split(' ').reverse;
-
-    var p1_res = '';
-
-    p1_array.forEachfunction(palabra,i){
-        if(i != 0 //i != p1_array.length) p1_res +='';
-        p1_res += palabra;
-    });
-}
 
 function problema2(){
     var p2_x1 =document.querySelector('#p2-x1').value;
@@ -40,8 +28,9 @@ function problema2(){
     var p2_producto = 0;
 
     for(var i=0; i<v1.length; i++){
-        p2_producto += v1[i]+v2[i];
+        p2_producto += v1[i]v2[i];
     }
 
-    document.querySelector('#p2-output').textContent = 'Producto escalar minimo :' + p2-output;
+    document.querySelector('#p2-output').textContent = 
+    'Producto escalar minimo :' +p2_producto;
 }
