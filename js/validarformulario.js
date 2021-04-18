@@ -26,7 +26,7 @@ function validar(formulario){
             }
         }
 
-        if(!allvalid){
+        if(allvalid){
             alert("Escribe solo letras en el camino nombre");
             formulario.nombre.focus();
             return false;
