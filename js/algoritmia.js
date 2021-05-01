@@ -81,7 +81,7 @@ function problema3(){
                 break;
             }
 
-            
+            wsawh
         }
 
         if(allvalid){
