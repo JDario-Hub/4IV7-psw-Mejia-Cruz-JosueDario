@@ -34,18 +34,13 @@
                 id = Integer.parseInt(request.getParameter("id_pro"));
                 descuento =Integer.parseInt(request.getParameter("descuento"));
                 
-                String q = ;
+                String q = ("id * descuento / 100");
+                
                 
                 try{
                     
                     set.executeUpdate(q);
-                    
-                    %>
-                    <table>
-                        <th></th>
-                        <th></th>
-                    </table>       
-                    <%
+  
                         set.close();
                 
                 }catch(SQLException ed){

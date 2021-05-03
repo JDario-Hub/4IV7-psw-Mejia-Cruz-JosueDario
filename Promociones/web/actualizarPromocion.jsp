@@ -29,10 +29,10 @@
             try{
                 int id= Integer.parseInt(request.getParameter("idPromocion"));
                 
-                String q = "";
+                
+                String q = "UPDATE mregistro SET  where id_usu ="+id;
                 
                 set.executeUpdate(q);
-               
                 set.close();
                 
             }

@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap');
+
+:root{
+    --boton: #f6efefff;
+    --footer: #756591ff;
+    --enlaces: #f6efefff;
+    --bordes: #0c0f22ff;
+    --enviar: #0c0f22ff;
+    --input: #f6efefff;
+    --fondo: #f6efefff;
+}
+
+body{
+    color: var(--bordes);
+    margin: 0;
+    background-color: var(--fondo);
+    font-family: Manrope;
+}
+
+h1{
+    text-align: center;
+}
+.administrar{
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+
+.registro{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    width: 70%;
+    margin: auto;
+}
+
+@media (max-width:600px){
+    .registro{
+        width: 100%;
+    }
+}
+
+section{
+    width: 40%;
+    margin: auto;
+}
+
+h2{
+    text-align: center;
+}
+
+a{
+    color: var(--enlaces);
+}
+
+footer{
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: var(--footer);
+    color: var(--enlaces);
+}
+.boton{
+    background-color: var(--boton);
+    padding: 1rem;
+    border-radius: 1rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+input, select{
+    border-radius: 1rem;
+    text-align: center;
+    background-color: var(--input);
+}
+input[type=number], input[type=text], input[type=tel], input[type=date]{
+    border:solid var(--bordes) .15rem;
+    width: auto;
+}
+
+input[type=submit]{
+    border: none;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    padding-inline: 1rem;
+    background-color: var(--enviar);
+    color: var(--enlaces);
+    font-weight: bold;
+}
+
+footer{
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: var(--footer);
+}
+
